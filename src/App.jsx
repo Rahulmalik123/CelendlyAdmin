@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Header from './Components/Header';
-import DashboardContent from './components/DashboardContent';
+import DashboardContent from './Components/DashboardContent';
 import Sidebar from './Components/Sidebar';
 import DataTableContent from './Components/DataTableContent';
 import './index.css'; // Make sure to import your main CSS file for Tailwind
