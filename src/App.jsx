@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import DashboardContent from './components/DashboardContent';
+import Sidebar from './components/Sidebar';
 import DataTableContent from './components/DataTableContent';
 import './index.css'; // Make sure to import your main CSS file for Tailwind
 
@@ -18,7 +18,7 @@ function App() {
             <main className="flex-1 p-8 overflow-y-auto"> {/* flex-1 to take remaining space, p-8 for padding */}
                 <Header />
                 {/* Conditionally render content based on activeTab */}
-                {activeTab === 'dashboard' && <DashboardContent />}
+                {/* {activeTab === 'dashboard' && <DashboardContent />} */}
                 {activeTab === 'table' && <DataTableContent />}
             </main>
         </>

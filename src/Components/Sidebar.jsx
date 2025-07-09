@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Sidebar({ activeTab, onTabChange }) {
+ export default function Sidebar({ activeTab, onTabChange }) {
     return (
         <aside className="w-64 bg-gray-800 text-white p-6 shadow-lg flex flex-col justify-between">
             <div>
@@ -46,4 +46,4 @@ function Sidebar({ activeTab, onTabChange }) {
     );
 }
 
-export default Sidebar;
+// export default Sidebar;

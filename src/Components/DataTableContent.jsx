@@ -62,7 +62,7 @@ function DataTableContent() {
             const cancelUrl = `https://app.grabfood.hk/api/buttar/sessions/cancel/${sessionId}`;
             
             const response = await fetch(cancelUrl, {
-                method: 'POST', // Use POST method as specified
+                method: 'PATCH', // Use POST method as specified
                 headers: {
                     'Content-Type': 'application/json',
                     // Add any authorization headers if needed
